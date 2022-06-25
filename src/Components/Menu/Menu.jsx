@@ -9,6 +9,7 @@ import Personagensblack from "../../Assets/imgs/personagens-black.svg";
 import Personagens from "../../Assets/imgs/personagens.svg";
 import Planetasblack from "../../Assets/imgs/planetas-black.svg";
 import Planetas from "../../Assets/imgs/planetas.svg";
+import { FiSettings } from 'react-icons/fi';
 
 const Menu = () => {
   return (
@@ -34,6 +35,10 @@ const Menu = () => {
             <p>Naves espaciais</p>
             </li>
           </ul>
+        </div>
+        <div className={styles.settings}>
+        <FiSettings className={styles.iconmenu}/>
+        <p>Configurações</p>
         </div>
       </div>
     </div>
