@@ -1,0 +1,37 @@
+.cardInfo{
+    background: #ffffff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    margin: 0 20px;
+    height: 132px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.cardInfoLarge{
+    background: #ffffff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    margin: 0 20px;
+    height: 132px;
+    width: 464px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.font{
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffba33;
+}
+
+.p{
+    font-size: 16px;
+}

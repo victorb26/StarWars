@@ -9,6 +9,7 @@ import Personagens from "../../Assets/imgs/personagens.svg";
 import Planetas from "../../Assets/imgs/planetas.svg";
 import { FiSettings } from 'react-icons/fi';
 
+
 const Menu = () => {
   return (
     <div className={styles.container}>

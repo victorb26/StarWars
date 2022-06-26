@@ -10,5 +10,7 @@
 .container{
     background: #f5f6fa;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
