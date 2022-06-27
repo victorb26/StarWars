@@ -12,6 +12,7 @@ const CardDuplo = () => {
             <p className={styles.p}>Planetas</p>
             <h2 className={styles.font}>10</h2>
             </div>
+            <div className={styles.divisoria}></div>
             <img src={Luablack} />
             <div className={styles.NumFont}>
             <p className={styles.p}>Luas</p>

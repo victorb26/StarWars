@@ -1,52 +1,55 @@
-.containerCards{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-
+.containerCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
-.cardInfo{
-    background: #ffffff;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    display: flex;
-    margin: 0 20px;
-    height: 132px;
-    width: 239px;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cardInfoLarge{
-    background: #ffffff;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    display: flex;
-    margin: 0 20px;
-    height: 132px;
-    width: 464px;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.font{
-    font-size: 54px;
-    font-weight: bold;
-    color: #ffba33;
-    
+.cardInfo {
+  background: #ffffff;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+  margin: 0 20px;
+  height: 132px;
+  width: 239px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.p{
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
+.cardInfoLarge {
+  background: #ffffff;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+  margin: 0 20px;
+  height: 132px;
+  width: 464px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.NumFont{
-    display: flex;
-    flex-direction: column;
-    
+.font {
+  font-size: 54px;
+  font-weight: bold;
+  color: #ffba33;
+}
+
+.p {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.NumFont {
+  display: flex;
+  flex-direction: column;
+}
+.divisoria{
+    content: '';
+    background: #000;
+    width: 1px;
+    height: 80px;
 }
