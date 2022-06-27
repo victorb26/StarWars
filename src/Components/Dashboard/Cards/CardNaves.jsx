@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 import styles from "./Cards.module.css";
 import Naveblack from "../../../Assets/imgs/nave-black.svg";
 
 const CardNaves = () => {
-    return (
-      <div className={styles.containerCards}>
-        <div className={styles.cardInfo}>
-          <img src={Naveblack} className={styles.vetor} />
+  return (
+    <div className={styles.containerCards}>
+      <div className={styles.cardInfo}>
+        <img src={Naveblack} className={styles.vetor} />
+        <div className={styles.NumFont}>
           <p className={styles.p}>Naves</p>
           <h2 className={styles.font}>10</h2>
         </div>
       </div>
-    );
-  };
-  
-  export default CardNaves;
+    </div>
+  );
+};
+
+export default CardNaves;

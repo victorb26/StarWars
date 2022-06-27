@@ -8,11 +8,15 @@ const CardDuplo = () => {
         <div className={styles.containerCards}>
           <div className={styles.cardInfoLarge}>
             <img src={Planetasblack} />
+            <div className={styles.NumFont}>
             <p className={styles.p}>Planetas</p>
             <h2 className={styles.font}>10</h2>
+            </div>
             <img src={Luablack} />
+            <div className={styles.NumFont}>
             <p className={styles.p}>Luas</p>
             <h2 className={styles.font}>10</h2>
+            </div>
             </div>
         </div>
       );
