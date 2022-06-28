@@ -1,18 +1,20 @@
-import React from 'react';
-import styles from './Dashboard.module.css';
+import React from "react";
+import styles from "./Dashboard.module.css";
 import CardPersonagens from "./Cards/CardPersonagens";
-import CardNaves from './Cards/CardNaves';
-import CardDuplo from './Cards/CardDuplo';
-
+import CardNaves from "./Cards/CardNaves";
+import CardDuplo from "./Cards/CardDuplo";
+import CardTabela from "./Cards/CardTabela";
 
 const Dashboard = () => {
   return (
-    <div className={styles.container}>
-     <CardPersonagens/>
-     <CardDuplo/>
-     <CardNaves/>
-    </div>
-  )
-}
+      <div className={styles.container}>
+        <CardPersonagens />
+        <CardDuplo />
+        <CardNaves />
+        <CardTabela />
+      </div>
+     
+  );
+};
 
-export default Dashboard
+export default Dashboard;

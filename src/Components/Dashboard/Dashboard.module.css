@@ -7,10 +7,13 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container{
-    background: #f5f6fa;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.container {
+  background: #f5f6fa;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 20px;
 }
