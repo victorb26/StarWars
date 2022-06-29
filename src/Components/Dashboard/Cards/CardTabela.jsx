@@ -2,43 +2,41 @@ import React, { useEffect, useState } from "react";
 import styles from "./Cards.module.css";
 
 const CardTabela = () => {
-const[titulo, setTitulo] = useState("");
+  const [titulo, setTitulo] = useState([]);
 
-useEffect(() => {
+  useEffect(() => {
     async function Requisicao() {
       const Api = await fetch(`https://swapi.dev/api/films/`);
       const Json = await Api.json();
-      setTitulo(Json.results[0].director);
+      setTitulo(Json.results);
       console.log(Json);
     }
     Requisicao();
   }, []);
 
-
-
-
-
-
-
   return (
-    <div className={styles.table}>
+    <table className={styles.table}>
       <div className={styles.tableHead}>
-        <tr>
-            <th>Título</th>
-            <th>Estreia</th>
-            <th>Diretor</th>
-            <th>Episódio</th>
-        </tr>
+        {titulo.map((titulo, index) => {
+          return (
+            <div key={index}>
+              <tr>
+                <th>Título</th>
+                <th>Estreia</th>
+                <th>Diretor</th>
+                <th>Episódio</th>
+              </tr>
+              <tr>
+                <td>{titulo.title}</td>
+                <td>{titulo.release_date}</td>
+                <td>{titulo.director}</td>
+                <td>{titulo.episode_id}</td>
+              </tr>
+            </div>
+          );
+        })}
       </div>
-      <div className={styles.tableBody}>
-        <tr>
-            <td>{titulo}</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-      </div>
-    </div>
+    </table>
   );
 };
 
