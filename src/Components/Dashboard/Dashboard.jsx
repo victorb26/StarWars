@@ -4,6 +4,7 @@ import CardPersonagens from "./Cards/CardPersonagens";
 import CardNaves from "./Cards/CardNaves";
 import CardDuplo from "./Cards/CardDuplo";
 import CardTabela from "./Cards/CardTabela";
+import CardGrafico from "./Cards/CardGrafico";
 
 const Dashboard = () => {
   return (
@@ -12,6 +13,7 @@ const Dashboard = () => {
         <CardDuplo />
         <CardNaves />
         <CardTabela />
+        
       </div>
      
   );
