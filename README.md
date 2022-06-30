@@ -10,14 +10,15 @@ Cada card foi elaborado como um componente.
 
 Este foi o resultado obtido: </h3>
 
-<img src="./src/assets/imgs/SW1.png">
+![SW1](https://user-images.githubusercontent.com/96198078/176757408-0d86d833-0022-423e-8f72-0d26c2567ebe.png)
 
 <h3>Também foi otimizado para dispositivos mobile:</h3>
 
-<img src="../src/Assets/imgs/SW2.png">
-<br>
-<img src="../src/Assets/imgs/deskto.png">
 
+![SW2](https://user-images.githubusercontent.com/96198078/176757523-1082d177-0506-4a94-8f87-225269130623.png) 
+
+
+![SW3](https://user-images.githubusercontent.com/96198078/176757527-8c4ddee8-680c-4b0c-ac5f-5de0008ac002.png)
 # 💻Tecnologias utilizadas
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
