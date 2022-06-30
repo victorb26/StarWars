@@ -14,9 +14,9 @@ Este foi o resultado obtido: </h3>
 
 <h3>Também foi otimizado para dispositivos mobile:</h3>
 
-<img src="./src/Assets/imgs/SW2.png">
+<img src="../src/Assets/imgs/SW2.png">
 <br>
-<img src="./src/Assets/imgs/deskto.png">
+<img src="../src/Assets/imgs/deskto.png">
 
 # 💻Tecnologias utilizadas
 
@@ -26,8 +26,6 @@ Este foi o resultado obtido: </h3>
 - [React](https://reactjs.org)
 - [API StarWars](https://swapi.dev/)
 - [Google Charts](https://react-google-charts.com)
-- [React Icons] (https://react-icons.github.io)
+- [React Icons](https://react-icons.github.io)
 - [Moment] (https://momentjs.com)
-# 😮 Preview
 
-Para visualizar por completo, clique aqui: (https://victorb26.github.io/API-da-Marvel/)
