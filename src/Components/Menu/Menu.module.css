@@ -32,8 +32,8 @@ ul {
   margin: 25px 0;
 }
 
-.menu ul li img{
-    margin-bottom: 10px ;
+.menu ul li img {
+  margin-bottom: 10px;
 }
 
 .settings {
@@ -45,4 +45,20 @@ ul {
 .iconmenu {
   margin-right: 10px;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+  }
+  .itemsmenu{
+    display: none;
+  }
+  .settings{
+    display: none;
+  }
 }

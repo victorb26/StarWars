@@ -14,3 +14,11 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

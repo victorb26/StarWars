@@ -1,10 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
+.container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+        gap: 1em;
+        grid-template-columns: 1fr ;
+        justify-content:center;
+        align-items:center;
+
+}
 }

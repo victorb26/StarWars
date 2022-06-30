@@ -27,7 +27,7 @@ const CardGrafico = () => {
       data={data}
       options={options}
       width={"100%"}
-      height={"105%"}
+      height={"100%"}
       
     />
     </div>
