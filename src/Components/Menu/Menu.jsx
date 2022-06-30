@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Menu.module.css";
-import Dashboard from "../../Assets/imgs/dashboard.svg";
+import Dashhboard from "../../Assets/imgs/dashhboard.svg";
 import logo from "../../Assets/imgs/logo.png";
 
 import Nave from "../../Assets/imgs/nave.svg";
@@ -18,7 +18,7 @@ const Menu = () => {
         <div className={styles.itemsmenu}>
           <ul>
             <li>
-            <img src={Dashboard} />
+            <img src={Dashhboard} />
             <p>Dashboard</p>
             </li>
             <li>
