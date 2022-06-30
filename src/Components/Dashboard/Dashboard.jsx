@@ -13,6 +13,7 @@ const Dashboard = () => {
         <CardDuplo />
         <CardNaves />
         <CardTabela />
+        <CardGrafico/>
         
       </div>
      
