@@ -10,7 +10,7 @@
 .container {
   background: #f5f6fa;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: (2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

@@ -16,6 +16,7 @@ const CardTabela = () => {
   }, []);
 
   return (
+    <div className={styles.containerCards}>
     <div className={styles.table}>
       <h5>Últimos filmes</h5>
       <p>Saiba os últimos lançamentos da marca:</p>
@@ -40,6 +41,7 @@ const CardTabela = () => {
           );
         })}
         </div>
+    </div>
     </div>
   );
 };
